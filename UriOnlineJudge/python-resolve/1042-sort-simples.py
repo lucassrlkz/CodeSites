@@ -1,5 +1,4 @@
-entry = input().split(" ")
-origem = [int(entry[0]), int(entry[1]), int(entry[2])]
+origem = list(map(int, input().split()))
 sortlist = origem.copy()
 
 sortlist.sort()

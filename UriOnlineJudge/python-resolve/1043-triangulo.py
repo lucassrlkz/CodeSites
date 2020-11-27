@@ -1,6 +1,4 @@
-entry = input().split()
-entry = list(map(float, entry))
-a, b, c = entry
+a, b, c = list(map(float, input().split()))
 
 if (a+b > c and b+c > a and a+c > b):
     print("Perimetro = %.1f" % (a+b+c))

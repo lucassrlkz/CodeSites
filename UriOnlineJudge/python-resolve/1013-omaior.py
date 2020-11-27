@@ -1,5 +1,4 @@
-entry = input().split()
-a, b, c = int(entry[0]), int(entry[1]), int(entry[2])
+a, b, c = list(map(float, input().split()))
 
 m1 = (a + b + abs(a-b)) / 2
 

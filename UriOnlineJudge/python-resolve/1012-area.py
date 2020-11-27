@@ -1,6 +1,5 @@
 # entry 3.0 / 4.0 / 5.2
-entry = input().split()
-a, b, c = float(entry[0]), float(entry[1]), float(entry[2])
+a, b, c = list(map(float, input().split()))
 pi, dots = 3.14159, ": "
 
 print(f"TRIANGULO{dots}%.3f" % ((a*c)/2))

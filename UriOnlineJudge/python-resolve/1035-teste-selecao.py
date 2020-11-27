@@ -1,5 +1,4 @@
-entry = input().split()
-a, b, c, d = int(entry[0]), int(entry[1]), int(entry[2]), int(entry[3])
+a, b, c, d = list(map(int, input().split()))
 
 if b > c and d > a:
     cd = c+d

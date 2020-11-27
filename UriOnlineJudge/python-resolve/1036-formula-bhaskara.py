@@ -1,7 +1,6 @@
 import math
-val = input().split(" ")
 
-a, b, c = float(val[0]), float(val[1]), float(val[2])
+a, b, c = list(map(float, input().split()))
 
 if a == 0.0 or (b**2 - 4*a*c) < 0:
     print("Impossivel calcular")
