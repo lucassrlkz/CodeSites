@@ -1,3 +1,3 @@
 # CodeSites
 
-Exercícios resolvidos dos sites Codefights e UriJudgeOnline
+Exercícios resolvidos dos sites Codefights e UriOnlineJudge
